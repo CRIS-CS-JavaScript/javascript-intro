@@ -28,7 +28,7 @@ However, the terms are often used interchangably.
 
 | Technology | Main Purpose | Think of it as… |
 |----------|-------------|-----------------|
-| **HTML** | Structure & content | The *skeleton* of a webpage |
+| **HTML** | Structure, Semantics & content | The *skeleton* of a webpage |
 | **CSS** | Look & style | The *clothes* and layout |
 | **JavaScript** | Interactivity | The *behavior* and actions |
 | **Git** | Track changes | A *time machine* for files |
@@ -68,9 +68,11 @@ index.html
 ## 3️⃣ HTML — Structure & Meaning
 
 ### What is HTML?
-HTML is a **markup language**.
+
+HTML is a **markup language** that structures content and assigns semantic meaning to that content.
 
 ✔️ HTML defines the *structure* of content  
+✔️ HTML elements have semantic (good names) that assign meaning to the content.  
 ❌ HTML does not style pages or add behavior
 
 ---
