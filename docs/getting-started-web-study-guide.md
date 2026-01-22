@@ -43,21 +43,21 @@ However, the terms are often used interchangably.
 ### What is a Git repository?
 A **Git repository** is:
 - A directory where Git tracks changes to files
-- It contains a hidden **`.git/` folder** with all history
+- It contains a hidden **`.git/` directory** with all history
 
 ✔️ True  
 - Git tracks changes inside a directory  
 - Repository data is stored in `.git/`
 
 ❌ False  
-- Any folder opened in VS Code is *not automatically* a Git repository
+- Any directory opened in VS Code is *not automatically* a Git repository
 
 ---
 
 ## 2️⃣ Default Web Files
 
 ### Default homepage filename
-When a web server loads a folder, it looks for:
+When a web server loads a directory, it looks for:
 
 ```
 index.html
@@ -121,7 +121,7 @@ The `src` attribute contains:
 ## 📂 Understanding Paths (Relative vs Absolute)
 
 ### 1. `/` — Path separator
-- `/` separates folders in paths
+- `/` separates directory in paths
 - Used in **URLs** and **local file paths**
 
 Example:
@@ -137,7 +137,7 @@ images/logo.png
 ```
 
 - Starts from the **root of the website**
-- ❗ Not the same as your project folder
+- ❗ Not the same as your project directory
 - Often **wrong** for local projects unless deployed
 
 ---
@@ -147,8 +147,8 @@ images/logo.png
 <img src="../images/logo.png">
 ```
 
-- Means: “go up one folder, then into `images/`”
-- Very common when files are in subfolders
+- Means: “go up one directory, then into `images/`”
+- Very common when files are in subdirectories
 
 ---
 
@@ -157,7 +157,7 @@ images/logo.png
 <img src="./logo.png">
 ```
 
-- Means: “look in the current folder”
+- Means: “look in the current directory”
 - Often optional, but useful for clarity
 
 ---
@@ -180,7 +180,7 @@ images/logo.png
 
 🧠 **Mental model**  
 - URL → “out there on the Internet”  
-- Relative path → “inside my folder”
+- Relative path → “inside my direcory”
 
 ---
 
