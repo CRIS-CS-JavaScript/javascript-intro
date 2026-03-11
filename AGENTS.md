@@ -1,22 +1,29 @@
-# AGENTS.md
+# Minimal Introduction to JavaScript
 
-Purpose: Guide coding agents working in this repository.
-
-This project creates a **minimal introduction to JavaScript** for middle
+This project creates a minimal introduction to JavaScript for middle
 school to high school ELL students. Content is published as GitHub Pages
 in Markdown.
 
 The design philosophy is:
 
-• minimal English
-• simple examples
-• first-principles concepts
-• avoid overwhelming features
-• link to deeper resources (primarily MDN)
+* minimal English
+* simple examples
+* first-principles concepts
+* essentials only - avoid overwhelming features
+* links to deeper resources (primarily MDN)
 
-This repository should follow the **structure and style of the
-CRIS-CS-Python/python-intro repository**.
+## Structure & Style
 
+This repository should follow the structure and style of the
+`CRIS-CS-Python/python-intro` sibling repository located in `../python-intro`.
+
+### Style Rules
+
+* Structure over presentation
+* Avoid bold unless necessary
+* Prefer headings
+* Use ASCII Markdown lists (-)
+* Optimize for GitHub Markdown
 
 ---------------------------------------------------------------------
 
@@ -26,9 +33,10 @@ CRIS-CS-Python/python-intro repository**.
 2. Prefer **short sentences**.
 3. Prefer **examples over explanation**.
 4. Avoid advanced JavaScript features unless required.
-5. Introduce **one concept per page**.
-6. Link to **MDN** for deeper explanations.
-
+5. We develop iteratively, one page at a time.
+6. Topics of each page determined by prompt instructions.
+7. Agents don't choose topics on their own, but do make recommendations, especially for gaps in essential (first principles) knowledge.
+8. Link to **MDN** for deeper explanations.
 
 ---------------------------------------------------------------------
 
@@ -36,10 +44,9 @@ CRIS-CS-Python/python-intro repository**.
 
 Students are:
 
-• English Language Learners (ELL)
-• middle school to high school
-• beginner programmers
-
+* English Language Learners (ELL)
+* middle school to high school
+* beginner programmers
 
 ---------------------------------------------------------------------
 
@@ -55,7 +62,6 @@ Before making changes:
 
 Make **small commits only**.
 
-
 ---------------------------------------------------------------------
 
 ## Teaching Philosophy
@@ -64,21 +70,22 @@ Teach from **first principles**.
 
 Focus on core ideas:
 
-• program
-• input
-• output
-• variable
-• value
-• expression
-• condition
-• loop
-• function
-• object
-• event
-
+* programs
+* input
+* output
+* values
+* types
+* expressions
+* variables
+* conditions
+* functions
+* arrays
+* loops
+* objects
+* DOM
+* events
 
 Avoid feature overload.
-
 
 ---------------------------------------------------------------------
 
@@ -88,16 +95,15 @@ Markdown only.
 
 Prefer:
 
-• short paragraphs
-• small code examples
-• bullet lists
-• diagrams when useful
+* short, concise, scannable text
+* small code examples
+* bullet lists
+* diagrams when useful
 
 Avoid:
 
-• long explanations
-• dense text blocks
-
+* long explanations
+* dense text blocks
 
 ---------------------------------------------------------------------
 
@@ -108,18 +114,16 @@ Primary reference:
 MDN Web Docs  
 https://developer.mozilla.org
 
-
 ---------------------------------------------------------------------
 
 ## Repository Goal
 
 A student should be able to read this guide and understand:
 
-• what JavaScript is
-• how JavaScript runs in the browser
-• how to write small programs
-• how JavaScript interacts with HTML
-
+* what JavaScript is
+* how JavaScript runs in the browser
+* how to write small programs
+* how JavaScript interacts with HTML
 
 ---------------------------------------------------------------------
 
@@ -133,4 +137,4 @@ Typical development cycle:
 4. Review
 5. Continue
 
-Prefer **many small improvements** over large rewrites.
+Prefer small incremental improvements over large rewrites.
